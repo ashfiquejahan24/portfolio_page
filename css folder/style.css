@@ -216,7 +216,7 @@ progress{
 }
 
 #inner-class-1{
-	/* background-color: red; */
+	 /* background-color: red;  */
 	width: 50%;
 	height: 100vh;
 	display: flex;
@@ -226,7 +226,7 @@ progress{
 }
 
 #inner-class-2{
-	/* background-color: aqua; */
+	 /* background-color: aqua;  */
 	width: 50%;
 	height: 100vh;
 	display: flex;
@@ -313,18 +313,6 @@ progress{
 	padding: 12px;
 }
 
-.return-box{
-    background-color: #569DAA;
-    height: 50px;
-    width: 50px;
-    border: 1px solid white;
-    position: fixed;
-    top: 551px;
-    right: 48px;
-    cursor: pointer;
-    border-radius: 100%;
-    padding: 17px;
-}
 
 .return-box:hover{
 	box-shadow: 3px 0px 8px white;
