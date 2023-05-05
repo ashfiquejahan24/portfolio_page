@@ -1,4 +1,4 @@
-@media screen and (max-width:1224px) {
+@media screen and (max-width:1196px) {
     #class{
         /* background-color: red; */
         display: flex;flex-direction: column;
@@ -28,7 +28,7 @@ width: 100%;
         /* background-color: aqua; */
         display: flex;
         flex-direction: column;
-        height: 160vh;
+        height: 227vh;
     }
 
     #main-header-2{
@@ -46,8 +46,13 @@ width: 100%;
     #progess-2{
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
+
+    #artical{
+        width: 100%;
+    }
+    
 }
 
 
@@ -85,9 +90,9 @@ width: 100%;
     width: 400px;
 }
 }
+/* 414 */
 
-
-@media screen and (max-width:414px){
+@media screen and (max-width:472px){
     #classic-image-1{
         width: 300px;
         height: 300px;
@@ -118,12 +123,18 @@ width: 100%;
         }
 
         #file{
-            width: 370px;
+            width: 260px;
         }
 
         #copyright{
             font-size: 11px;
+            display: flex;
+            align-items: center;
         }
 
+        #section-2,ul,li{
+            padding: 5px;
+        }
+   
     
 }
